@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>회원가입</title>
+  </head>
+  <style>
+      .top_title {
+        background-color: green;
+        width: 100%;
+        height: 250px;
+
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg");
+        background-position: center;
+        background-size: cover;
+
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      .myjoin_box {
+        max-width: 300px;
+        width: 95%;
+
+        margin: 70px auto 0px auto;
+
+        box-shadow: 0px 0px 3px 0px gray;
+        padding: 30px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+      .input_text {
+          margin-bottom: 10px;
+      }
+  </style>
+  <body>
+    <div class="top_title">
+        <h1>야무진 한끼</h1>
+    </div>
+    <div class="mypost">
+        <div class="myjoin_box">
+            <span class="input_text">아이디: <input type="text" PLACEHOLDER="아이디를 입력해주세요."/></span><button>중복확인</button>
+            <span class="input_text">패스워드: <input type="text" PLACEHOLDER="패스워드를 입력해주세요."/></span>
+            <span class="input_text">패스워드 확인: <input type="text" PLACEHOLDER="패스워드를 입력해주세요."/></span>
+            <span class="input_text">닉네임: <input type="text" PLACEHOLDER="닉네임을 입력해주세요."/></span>
+            <div class="join_btn">
+                <button>가입</button>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
